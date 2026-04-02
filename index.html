@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>写给张威的关心</title>
+    <meta
+      name="description"
+      content="一页小小的关心，送给最近身体不舒服、仍然很勇敢的你。"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="ambient ambient-one"></div>
+      <div class="ambient ambient-two"></div>
+
+      <header class="hero">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">For Zhang Wei</p>
+          <h1>今天不需要你逞强。</h1>
+          <p class="name-tag">张威，这一页是我专门写给你的。</p>
+          <p class="lead">
+            我知道你最近真的很难受。痔疮犯了，肛裂也让你坐着疼、走路疼、连休息都不轻松。
+            所以这个网页不是让你打起精神的，是想认真告诉你：
+            <span>你可以脆弱、可以撒娇、可以把难受都交给我。</span>
+          </p>
+          <div class="hero-actions">
+            <button class="primary-button" data-open-letter>
+              打开我写给你的信
+            </button>
+            <button class="ghost-button" data-next-message>
+              再看一句想对你说的话
+            </button>
+          </div>
+          <p class="rotating-message" aria-live="polite">
+            你不是麻烦，你只是刚好在最需要被照顾的时候。
+          </p>
+        </div>
+
+        <aside class="promise-card reveal delay-1">
+          <p class="card-label">我的承诺</p>
+          <ul>
+            <li>你疼的时候，我不说“忍一忍”，我先想办法让你舒服一点。</li>
+            <li>你情绪不好的时候，我不讲道理，我先抱抱你。</li>
+            <li>你想休息的时候，我替你挡掉没必要的打扰。</li>
+          </ul>
+          <div class="pulse-ring"></div>
+        </aside>
+      </header>
+
+      <main>
+        <section class="support-grid">
+          <article class="support-card reveal">
+            <p class="section-tag">I see you</p>
+            <h2>我知道你在硬撑的细节</h2>
+            <p>
+              是你坐下去前会犹豫一下，是你起身的时候会不自觉皱眉，是你明明不舒服还怕别人担心，嘴上总说“还好”。
+              我都看到了。
+            </p>
+          </article>
+
+          <article class="support-card warm reveal delay-1">
+            <p class="section-tag">No pressure</p>
+            <h2>你现在最重要的事</h2>
+            <p>
+              不是坚强，不是表现得很厉害，也不是勉强自己正常生活。
+              你现在最重要的事，就是好好恢复、按时休息、慢一点，我来陪你把这段难熬的时间过掉。
+            </p>
+          </article>
+
+          <article class="support-card accent reveal delay-2">
+            <p class="section-tag">My role</p>
+            <h2>让我来做这些</h2>
+            <p>
+              记药、提醒喝水、帮你准备软垫、少让你久坐、陪你去看医生、听你吐槽疼和烦。
+              我不只是心疼你，我会把心疼变成行动。
+            </p>
+          </article>
+        </section>
+
+        <section class="care-section reveal">
+          <div class="care-heading">
+            <p class="section-tag">Care Plan</p>
+            <h2>如果今天很难熬，就只做这几件小事</h2>
+          </div>
+
+          <div class="care-list">
+            <label class="care-item">
+              <input type="checkbox" />
+              <span>先别逞强，找个最舒服的姿势休息十分钟。</span>
+            </label>
+            <label class="care-item">
+              <input type="checkbox" />
+              <span>喝一点温水，不急，慢慢来。</span>
+            </label>
+            <label class="care-item">
+              <input type="checkbox" />
+              <span>不舒服就告诉我，不要一个人默默忍着。</span>
+            </label>
+            <label class="care-item">
+              <input type="checkbox" />
+              <span>今天允许自己情绪差一点，也完全没关系。</span>
+            </label>
+          </div>
+        </section>
+
+        <section class="letter-section reveal delay-1" id="letter-panel">
+          <div class="letter-window">
+            <p class="section-tag">A soft letter</p>
+            <h2>写给你的小信</h2>
+            <p>
+              张威，最近这段时间你真的辛苦了。身体上的疼会把人磨得很烦、很委屈，连原本很简单的一天都变得不好过。
+              但你不用在我面前装作没事，也不用怕自己状态不好会影响我。
+            </p>
+            <p>
+              我喜欢你，不只是喜欢你开心、漂亮、精神满满的时候；也喜欢你现在这样，皱着眉、想被照顾、需要有人守着的时候。
+              你每一次不舒服，我都会更想把你护好一点。
+            </p>
+            <p>
+              所以你放心养身体，剩下的交给我。等你好起来，我们再去吃你想吃的、去散步、去晒太阳，把这阵子错过的舒服和轻松一点点补回来。
+            </p>
+            <p class="signature">你专属的护理员兼男朋友</p>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <div class="letter-modal" data-letter-modal hidden>
+      <div class="modal-backdrop" data-close-letter></div>
+      <div class="modal-card">
+        <button class="modal-close" aria-label="关闭" data-close-letter>
+          ×
+        </button>
+        <p class="section-tag">Only for you</p>
+        <h2>我想对你说</h2>
+        <p>
+          张威，你不用因为生病还要努力可爱。你只需要好好休息，而我会继续很爱你、很心疼你、很认真地陪着你。
+        </p>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
